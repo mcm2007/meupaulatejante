@@ -17,3 +17,19 @@ trabalho 2 de AI B
         <div class="alo">
             atum é mesmo bom sincero legit mano
         </div>
+
+* {
+  box-sizing: border-box;
+}
+.alo {
+    background-color: gray;
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
