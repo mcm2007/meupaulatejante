@@ -37,3 +37,6 @@ h1 {
     padding: 14px 25px;
     text-decoration: none;
 }
+#list {
+    list-style: none;
+}
