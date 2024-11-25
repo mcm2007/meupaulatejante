@@ -59,5 +59,7 @@ h1 {
     border-radius: 10px;
 }
 #footer {
+    list-style-type: none;
+    display: flex;
     text-align: center;
 }
