@@ -39,10 +39,15 @@ h1 {
 }
 #list {
     list-style-type: none;
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
     align-items: center;
     display: flex;
+}
+.material-symbols-outlined{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 .fotografias {
     background-color: black;
@@ -50,5 +55,6 @@ h1 {
     margin: 0 20%;
 }
 #topico{
-    text-align:left;
+    float: left;
+    border-radius: 10px;
 }
