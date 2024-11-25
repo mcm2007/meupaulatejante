@@ -42,6 +42,7 @@ h1 {
     margin: 0;
     padding: 0;
     align-items: center;
+    display: flex;
 }
 .fotografias {
     background-color: black;
