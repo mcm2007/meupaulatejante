@@ -62,8 +62,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
-#fotografias {
+#first, #second, #third, #fourth {
     height: 20px;
     width: 30px;
-    float: right;
 }
