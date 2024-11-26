@@ -106,11 +106,36 @@ h1 {
     float: left;
     border-radius: 10px;
 }
-#footerlist {
-    display: flex;
-    justify-content: center;
+footer {
+    background-color: #1E2025;
+    padding: 1rem 0;
+    text-align: center;
 }
-#first, #second, #third, #fourth {
-    height: 20px;
-    width: 30px;
+
+.fotterlist {
+    list-style: none;
+    display: flex;    
+    justify-content: center;
+    gap: 20px; 
+    padding: 0; 
+    margin: 0 0 1rem 0;
+}
+
+.fotterlist li {
+    margin: 0; 
+}
+.fotterlist a {
+    color: #FFF; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    transition: color 0.3s ease;
+}
+
+.fotterlist a:hover {
+    color: #58a6ff;
+}
+
+footer p {
+    color: rgb(204, 204, 204);
+    font-size: 0.9rem;
 }
