@@ -97,7 +97,7 @@ h1 {
     height: 20px;
     margin-right: 10px;
 }
-.fotografias {
+.conteudo {
     background-color: black;
     padding: 5px 50px;
     margin: 0 20%;
@@ -109,4 +109,8 @@ h1 {
 #footerlist {
     display: flex;
     justify-content: center;
+}
+#first, #second, #third, #fourth {
+    height: 20px;
+    width: 30px;
 }
