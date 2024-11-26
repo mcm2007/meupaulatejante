@@ -3,7 +3,7 @@ body {
     margin: 30px 65px;
     color: rgb(255, 255, 255);
 }
-/* Header styling */
+
 .header-container {
     padding: 10px 20px;
     display: flex;
@@ -31,14 +31,12 @@ body {
         border-radius: 5px;
         text-align: center;
         transition: background-color 0.3s ease, color 0.3s ease;
-    }
+}
 
-        .header-nav a:hover, .header-nav a.active {
-            background-color: rgb(5, 70, 114);
-            color: white;
-        }
-
-/* Responsive adjustments */
+.header-nav a:hover, .header-nav a.active {
+        background-color: rgb(5, 70, 114);
+        color: white;
+}
 @media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
@@ -106,11 +104,36 @@ h1 {
     float: left;
     border-radius: 10px;
 }
-#footerlist {
-    display: flex;
-    justify-content: center;
+footer {
+    background-color: none;
+    padding: 1rem 0;
+    text-align: center;
 }
-#first, #second, #third, #fourth {
-    height: 20px;
-    width: 30px;
+
+.fotterlist {
+    list-style: none;
+    display: flex;    
+    justify-content: center;
+    gap: 20px; 
+    padding: 0; 
+    margin: 0 0 1rem 0;
+}
+
+.fotterlist li {
+    margin: 0; 
+}
+.fotterlist a {
+    color: #FFF; 
+    text-decoration: none; 
+    font-size: 1rem; 
+    transition: color 0.3s ease;
+}
+
+.fotterlist a:hover {
+    color: #58a6ff;
+}
+
+footer p {
+    color: rgb(204, 204, 204);
+    font-size: 0.9rem;
 }
