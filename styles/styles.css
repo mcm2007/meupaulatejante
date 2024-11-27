@@ -23,34 +23,33 @@ body {
     gap: 15px;
 }
 
-    .header-nav a {
-        color: white;
-        text-decoration: none;
-        padding: 10px 20px;
-        background-color: transparent;
-        border-radius: 5px;
-        text-align: center;
-        transition: background-color 0.3s ease, color 0.3s ease;
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .header-nav a:hover, .header-nav a.active {
-        background-color: rgb(5, 70, 114);
-        color: white;
+    background-color: rgb(5, 70, 114);
+    color: white;
 }
 @media screen and (max-width: 768px) {
     .header-container {
-        flex-direction: column;
-        align-items: center;
-    }
+    flex-direction: column;
+    align-items: center;
+}
 
-    .header-nav {
-        flex-direction: column;
-    }
+.header-nav {
+    flex-direction: column;
+}
 
-        .header-nav a {
-            width: 100%;
-            text-align: center;
-        }
+.header-nav a {
+    width: 100%;
+    text-align: center;
+ }
 }
 h1 {
     font-size: 40px;
@@ -100,10 +99,6 @@ h1 {
     padding: 5px 50px;
     margin: 0 20%;
 }
-#topico{
-    float: left;
-    border-radius: 10px;
-}
 footer {
     background-color: none;
     padding: 1rem 0;
@@ -120,7 +115,7 @@ footer {
 }
 
 .fotterlist li {
-    margin: 0; 
+    margin: 0;
 }
 .fotterlist a {
     color: #FFF; 
@@ -136,4 +131,7 @@ footer {
 footer p {
     color: rgb(204, 204, 204);
     font-size: 0.9rem;
+}
+#sobre-nós{
+    h
 }
