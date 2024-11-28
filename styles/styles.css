@@ -126,7 +126,7 @@ body {
 .conjunto-fotos {
     display: flex;
     flex-wrap: wrap;
-    max-width: 751,3px;
+    max-width: 500px;
 }
 
 .conjunto-fotos > div {
