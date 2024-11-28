@@ -90,8 +90,8 @@ body {
     background-color: rgb(117, 113, 113);
     margin: 1rem;
     padding: 2.5rem;
-    display: inline-block; /* Makes it inline for side-by-side alignment */
-    vertical-align: top;   /* Aligns text at the top */
+    display: inline-block; /* For horizontal alignment */
+    vertical-align: top;   /* Align the text container to the top */
 }
 
 .conteudo h2 {
@@ -120,25 +120,24 @@ body {
     background-color: #8A2BE2;
 }
 
-.conjunto-fotos img {
-    max-width: 100%;
-    display: block;
-    margin-bottom: 10px; /* Space between individual images */
-}
 .conjunto-fotos {
-    display: inline-block; /* Makes the image container inline for side-by-side alignment */
-    max-width: 40%;        /* Adjust the width of the image container */
-    margin-left: 20px;     /* Adds space between the text and images */
-    vertical-align: top;   /* Aligns the image container to the top of the text */
+    display: inline-block; /* Inline to align next to the text */
+    max-width: 40%;        /* Limit the width of the image container */
+    margin-left: 20px;     /* Add space between text and images */
+    vertical-align: top;   /* Align image container to the top */
 }
 
-.conjunto-fotos > div{
-    display: flex;
-    flex: 1 1 200px;
+.conjunto-fotos > div {
+    display: grid;           /* Use grid layout for the images */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px;               /* Spacing between the images */
     margin: 10px;
-    border: black;
-    border-style: solid;
-    border-width: 4px;
+}
+
+.conjunto-fotos img {
+    max-width: 100%;       /* Ensure images fit within their container */
+    display: block;        /* Remove extra spacing below images */
+    border: 4px solid black; /* Add border for styling */
 }
 footer {
     background-color: none;
