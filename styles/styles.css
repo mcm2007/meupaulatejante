@@ -90,6 +90,8 @@ body {
     background-color: rgb(117, 113, 113);
     margin: 1rem;
     padding: 2.5rem;
+    display: inline-block; /* Makes it inline for side-by-side alignment */
+    vertical-align: top;   /* Aligns text at the top */
 }
 
 .conteudo h2 {
@@ -121,12 +123,15 @@ body {
 .conjunto-fotos img {
     max-width: 100%;
     display: block;
+    margin-bottom: 10px; /* Space between individual images */
 }
 .conjunto-fotos {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 683px;
+    display: inline-block; /* Makes the image container inline for side-by-side alignment */
+    max-width: 40%;        /* Adjust the width of the image container */
+    margin-left: 20px;     /* Adds space between the text and images */
+    vertical-align: top;   /* Aligns the image container to the top of the text */
 }
+
 .conjunto-fotos > div{
     display: flex;
     flex: 1 1 200px;
