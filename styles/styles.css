@@ -88,8 +88,7 @@ body {
     flex: 1; 
     max-width: 50%;
     background-color: rgb(117, 113, 113);
-    margin: 1rem;
-    padding: 2.5rem;
+  
 }
 
 .conteudo h2 {
