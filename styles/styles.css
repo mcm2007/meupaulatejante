@@ -128,7 +128,7 @@ footer p {
 .conteudo {
     flex: 1; 
     max-width: 40%;
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(155, 155, 155);
 }
 .conteudo h2 {
     font-size: 1.8rem;
@@ -139,7 +139,7 @@ footer p {
     line-height: 1.6;
     margin-bottom: 1rem;
 }
-.conteudo .botao-roxo {
+.botao-roxo {
     background-color: #A020F0;
     color: #FFF;
     padding: 0.8rem 1.2rem;
@@ -152,11 +152,22 @@ footer p {
 .conteudo .botao-roxo:hover {
     background-color: #8A2BE2;
 }
+.conjunto-fotos img {
+    max-width: 100%;
+    display: block;
+}
 .conjunto-fotos {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 683px;
+}
+.conjunto-fotos > div{
+    display: flex;
+    flex: 1 1 200px;
+    margin: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 4px;
 }
 .fotos {
     position: relative;
