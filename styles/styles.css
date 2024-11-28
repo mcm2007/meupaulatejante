@@ -5,6 +5,7 @@ body {
 }
 
 .header-contentor {
+    margin: 30px 65px;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
