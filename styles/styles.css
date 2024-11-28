@@ -129,7 +129,8 @@ footer p {
     flex: 1; 
     max-width: 40%;
     background-color: rgb(70, 70, 70);
-    padding: 15px;
+    margin: 1rem;
+    padding: 3rem;
 }
 .conteudo h2 {
     font-size: 1.8rem;
