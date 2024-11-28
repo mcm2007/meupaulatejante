@@ -85,8 +85,8 @@ body {
 }
 
 .conteudo {
-    flex: 1;
-    max-width: 60%;
+    flex: 1; 
+    max-width: 45%;
     background-color: rgb(117, 113, 113);
     margin: 1rem;
     padding: 3rem;
@@ -126,7 +126,7 @@ body {
 .conjunto-fotos {
     display: flex;
     flex-wrap: wrap;
-    max-width: 546.4px;
+    max-width: 751,3px;
 }
 
 .conjunto-fotos > div {
