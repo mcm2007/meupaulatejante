@@ -70,9 +70,12 @@ body {
 }
 
 .material-symbols-outlined {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     vertical-align: middle;
 }
 
@@ -84,39 +87,44 @@ body {
     align-items: center;
 }
 
-.sobre-nos {
+.latest-projects {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #393E46; /* Dark gray background */
+    background-color: #393E46;
     padding: 2rem;
     color: #FFF;
 }
 
-.sobre-nos .contentor {
+.latest-projects .container {
     display: flex;
     gap: 2rem;
-    flex-wrap: wrap; /* Ensures responsive layout */
+    flex-wrap: wrap;
 }
 
-.conteudo {
-    flex: 1; /* Takes up 50% of the space */
-    max-width: 40%;
+.projects-text {
+    flex: 1;
+    max-width: 55%;
+    background-color: rgb(95, 95, 95);
+    padding:3rem;
+    border: rgb(95, 95, 95) ;
+    border-width: 2px;
+    border-style: solid;
 }
 
-.conteudo h2 {
+.projects-text h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
-.conteudo p {
+.projects-text p {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
-.conteudo .btn-purple {
-    background-color: #A020F0; /* Purple button */
+.projects-text .btn-purple {
+    background-color: #A020F0;
     color: #FFF;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -126,28 +134,28 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.conteudo .btn-purple:hover {
-    background-color: #8A2BE2; /* Darker purple on hover */
+.projects-text .btn-purple:hover {
+    background-color: #8A2BE2;
 }
 
-.conjunto-fotos img {
+
+.projects-gallery img {
     max-width: 100%;
     display: block;
 }
-.conjunto-fotos {
+.projects-gallery {
     display: flex;
     flex-wrap: wrap;
-    max-width: 683px;
+    max-width: 543px;
 }
-.conjunto-fotos > div{
+.projects-gallery > div{
     display: flex;
     flex: 1 1 200px;
     margin: 10px;
     border: black;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
 }
-
 footer {
     background-color: none;
     padding: 1rem 0;
