@@ -1,7 +1,7 @@
 body {
     background-color: rgb(57, 62, 70);
     margin: 30px 65px;
-    color: rgb(255, 255, 255);
+    color: rgb(124, 124, 124);
 }
 
 .header-contentor {
@@ -68,7 +68,13 @@ body {
     text-decoration: none;
     color: aquamarine;
 }
-
+#intr2 {
+    text-decoration: none;
+    color: rgb(109, 87, 207);
+}
+span {
+    color: white;
+}
 .material-symbols-outlined {
     width: 30px;
     height: 30px;
