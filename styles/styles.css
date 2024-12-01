@@ -129,31 +129,31 @@ ul {
     border-style: solid;
 }
 
-    .projects-text h2 {
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-    }
+.projects-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
-    .projects-text p {
-        font-size: 1rem;
-        line-height: 1.6;
-        margin-bottom: 1rem;
-    }
+.projects-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
 
-    .projects-text .btn-purple {
-        background-color: #A020F0;
-        color: #FFF;
-        padding: 0.8rem 1.2rem;
-        border: none;
-        border-radius: 5px;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+.projects-text .btn-purple {
+    background-color: #A020F0;
+    color: #FFF;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-        .projects-text .btn-purple:hover {
-            background-color: #8A2BE2;
-        }
+.projects-text .btn-purple:hover {
+    background-color: #8A2BE2;
+}
 
 .projects-gallery img {
     max-width: 100%;
@@ -166,14 +166,14 @@ ul {
     max-width: 543px;
 }
 
-    .projects-gallery > div {
-        display: flex;
-        flex: 1 1 200px;
-        margin: 10px;
-        border: black;
-        border-style: solid;
-        border-width: 3px;
-    }
+.projects-gallery > div {
+    display: flex;
+    flex: 1 1 200px;
+    margin: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+}
 
 footer {
     background-color: none;
@@ -188,22 +188,27 @@ footer {
     gap: 20px;
     padding: 0;
     margin: 0 0 1rem 0;
+    
+}
+.fotterlist li {
+    margin: 1px;
+    padding: 5px;
+    border: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
 }
 
-    .fotterlist li {
-        margin: 0;
-    }
+.fotterlist a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
 
-    .fotterlist a {
-        color: #FFF;
-        text-decoration: none;
-        font-size: 1rem;
-        transition: color 0.3s ease;
-    }
-
-        .fotterlist a:hover {
-            color: #58a6ff;
-        }
+.fotterlist a:hover {
+    color: #58a6ff;
+}
 
 footer p {
     color: rgb(204, 204, 204);
